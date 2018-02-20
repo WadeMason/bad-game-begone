@@ -6,9 +6,10 @@
 // @author       Wade Mason
 // @include      http://store.steampowered.com/app/*
 // @include      https://store.steampowered.com/app/*
-// @include     http://store.steampowered.com/explore*
-// @include     https://store.steampowered.com/explore*
+// @include      http://store.steampowered.com/explore*
+// @include      https://store.steampowered.com/explore*
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/WadeMason/bad-game-begone/master/badGameBegone.js
 // ==/UserScript==
 
 (function()

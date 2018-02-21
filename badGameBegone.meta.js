@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bad Game Begone
 // @namespace    https://github.com/WadeMason/bad-game-begone
-// @version      1.0
+// @version      1.1
 // @description  Automatically marks negatively reviewed games as "Not Interested" in Steam Queues.
 // @author       Wade Mason
 // @include      http://store.steampowered.com/app/*

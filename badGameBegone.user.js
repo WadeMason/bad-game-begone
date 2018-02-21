@@ -48,31 +48,7 @@
             return document.getElementById('refresh_queue_btn');
         }
 
-        // Age requirement (src: https://github.com/PotcFdk/SteamDiscoveryQueueAutoSkipper)
-        if (document.getElementById ("app_agegate"))
-        {
-            var btn_medium = document.getElementById ("app_agegate").getElementsByClassName ("btn_medium");
-            if (btn_medium)
-            {
-                for (i = 0; i < btn_medium.length; i++)
-                {
-                    if (btn_medium[i].getAttribute("onclick").includes("HideAgeGate"))
-                    {
-                        click (btn_medium[i]);
-                    }
-                }
-            }
-        }
-
-        if (document.getElementById ("ageYear"))
-        {
-            document.getElementById ("ageYear").value = 1985;
-            if (DoAgeGateSubmit)
-            {
-                DoAgeGateSubmit();
-            }
-        }
-
+        // Age Gate
 
         console.log('Not in queue');
         return null;
